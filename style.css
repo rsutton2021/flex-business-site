@@ -329,6 +329,8 @@ header {
     background: #4a4a4a;
     flex-basis: 210px;
     box-shadow: 0.5rem 0.5rem 1rem white;
+    text-align: center;
+    line-height: 1.6rem;
     
   }
   
@@ -341,4 +343,11 @@ header {
 
   /* FOOTER */
 
-  
+  footer {
+    background-color: #f3f3f3;
+    margin-top: 5rem;
+    padding: 1rem;
+    color: #4a4a4a;
+    font-size: 0.7rem;
+  }
+
