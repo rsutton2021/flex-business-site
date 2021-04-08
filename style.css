@@ -219,26 +219,30 @@ header {
 
 #overview {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     padding: 4rem 5%;
     background-color: #f3f3f3;
   }
   
   .feature {
-    flex: 1;
-    padding: 2rem;
+    flex: 1; 
+    /* display: flex; */
+    padding: 1rem;
     margin: 0px 1.25rem;
     background-color: white;
   }
   
   .feature .image-container {
+    /* display: flex; */
     width: 90%;
     height: 65%;
     margin: 0 auto;
+    object-fit: cover;
   }
   
   .feature .content {
-    padding: 2.5rem 0;
+    padding: 1.5rem 0;
   }
   
   .feature h2 {
@@ -253,6 +257,10 @@ header {
     line-height: 1.2;
     font-weight: 300;
     color: #4a4a4a;
+  }
+
+  .feature a:hover {
+    opacity: 0.6;
   }
 
   @media only screen and (max-width: 895px) {
